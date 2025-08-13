@@ -5,6 +5,7 @@
 #### Gerekenler ; 
 
 - Sunucu yada Windows WSL - Açık kalması önemli. Ben normal 4 CPU 8 Ram'li diğer nodelerin bulunduğu serverda başlattım.
+- İnternet hızınız iyi olmadı birazda disk alanınız olsun.
 
 #### GitHub hesabınız aşağıdaki kriterleri karşılamalıdır: 
 - En az bir aylık. 
