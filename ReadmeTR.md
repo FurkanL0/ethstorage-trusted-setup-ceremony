@@ -4,7 +4,9 @@
 
 #### Gerekenler ; 
 
-GitHub hesabınız aşağıdaki kriterleri karşılamalıdır: 
+- Sunucu yada Windows WSL - Açık kalması önemli. Ben normal 4 CPU 8 Ram'li diğer nodelerin bulunduğu serverda başlattım.
+
+#### GitHub hesabınız aşağıdaki kriterleri karşılamalıdır: 
 - En az bir aylık. 
 - En az bir genel repo. 
 - En az 5 GitHub hesabı takip ve en az 1 takipçisi olmalıdır. 
@@ -52,6 +54,39 @@ mkdir ~/trusted-setup-tmp && cd ~/trusted-setup-tmp
 npm install -g @p0tion/phase2cli
 ```
 
-```bash
+- Github Auth ; 
 
+```bash
+phase2cli auth
 ```
+
+- Başladıktan Sonra Size Kod Vericek Github Auth ile bağlanmamız lazım 15 Dakika içinde.
+- Link : https://github.com/login/device
+- Kod Komut sonrası ekranda çıkacak.
+
+<img width="750" height="390" alt="image" src="https://github.com/user-attachments/assets/75c4d39c-fc12-45c0-8b36-fdf07a549fe2" />
+
+- Bağladıktan sonra ; 
+
+<img width="757" height="450" alt="image" src="https://github.com/user-attachments/assets/bb55d849-9ea3-473c-8b1c-14acc6f3a5cb" />
+
+## Ceremony Katılım ; 
+
+- Screen Açalım
+
+```bash
+screen -S ceremony
+```
+
+```bash
+phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
+```
+
+<img width="754" height="389" alt="image" src="https://github.com/user-attachments/assets/56403d4e-35b6-45c7-a23c-c8af74d856d5" />
+
+
+- Ben Random seçtim direkt entere bastım sorduğu kısımda sonra sıraya alıyor.
+
+- Çıkmak için CTRL A+D Yapabilirsiniz
+
+- screen -r ceremony komutu ile yeniden screene girip kontrol edebilirsiniz.
