@@ -95,3 +95,14 @@ phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
 - Çıkmak için CTRL A+D Yapabilirsiniz
 
 - screen -r ceremony komutu ile yeniden screene girip kontrol edebilirsiniz.
+
+
+## Hatalar İçin ; 
+
+<img width="902" height="128" alt="image" src="https://github.com/user-attachments/assets/b637388c-8d3c-472a-8055-ee7dba42d7a3" />
+
+- Burada beklediğiniz 1-2 dk ekran değişmedi CTRL C ile durdurup. Aşağıdaki kodu tekrar girin. Sıra gelmesi lazım.
+
+```bash
+phase2cli contribute -c ethstorage-v1-trusted-setup-ceremony
+```
