@@ -62,6 +62,10 @@ phase2cli auth
 
 - Başladıktan Sonra Size Kod Vericek Github Auth ile bağlanmamız lazım 15 Dakika içinde.
 - Link : https://github.com/login/device
+
+<img width="555" height="576" alt="image" src="https://github.com/user-attachments/assets/556635d4-d1c8-42ff-b1ad-48de878534c4" />
+
+
 - Kod Komut sonrası ekranda çıkacak.
 
 <img width="750" height="390" alt="image" src="https://github.com/user-attachments/assets/75c4d39c-fc12-45c0-8b36-fdf07a549fe2" />
